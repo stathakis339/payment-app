@@ -2,19 +2,25 @@
 
 A full-stack payment application built with React, Node.js and Viva Wallet API.
 
+## Live Demo
+
+https://stathakis339.github.io/payment-app/
+
 ## Features
 
-- 📝 Payment form with validation
+- 📝 Payment form with real-time validation
 - 🔒 Secure backend with Node.js + Express
-- 💳 Viva Wallet payment integration
+- 💳 Viva Wallet Smart Checkout integration
 - ✅ Real-time payment processing
 - 🔄 Automatic redirect to payment gateway
+- 🎨 Responsive design with Tailwind CSS
 
 ## Tech Stack
 
 **Frontend:**
 - React
 - Vite
+- Tailwind CSS
 
 **Backend:**
 - Node.js
@@ -30,7 +36,6 @@ A full-stack payment application built with React, Node.js and Viva Wallet API.
 
 ### Backend:
 ```bash
-cd payment-app
 npm install
 node server.js
 ```
@@ -48,5 +53,5 @@ Create a `.env` file in the root folder:
 VIVA_CLIENT_ID=your_client_id
 VIVA_CLIENT_SECRET=your_client_secret
 
-## Flow
-User fills form → Node.js Server → Viva Wallet API → Payment Page → Success
+## How It Works
+User fills form → React Frontend → Node.js Server → Viva Wallet API → Payment Page → Success ✅
